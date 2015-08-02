@@ -14,15 +14,17 @@
 			<span class="curso">{{alumno.curso}}</span>
 		</div>
 	</div>
-	<br>
-	<div class="wrapper">
+	<br/>
+	<center><button ng-click="ShowForm()" ng-hide="formVisibility">Añadir Alumno</button></center>
+	<div ng-show="formVisibility" class="wrapper">
 		<h2>Añadir un contacto</h2>
 		Nombre: <input type="text" ng-model="nuevoAlumno.nombre"></input>
 		Telefono: <input type="text" ng-model="nuevoAlumno.telefono"></input>
 		Curso: <input type="text" ng-model="nuevoAlumno.curso"></input>
 		<button ng-click="Save()">Guardar</button>
 	</div>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+<script>window.angular || document.write('<script src="angular/angular.min.js"><\/script>');</script>
 <script src="script.js" type="text/javascript" ></script>
 </body>	
 </html>
