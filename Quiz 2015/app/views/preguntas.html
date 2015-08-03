@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">       
+  	<div ng-repeat="preg in preguntas">
+  		<ul>
+  		<li>{{ preg.pregunta }}</li>
+  		</ul>	
+  	</div>
+	<div class="col-sm-12 col-sm-offset-0 text-center">
+	<br />
+	<button class="btn btn-primary" ng-click="ShowForm()" ng-hide="formVisibility">Añadir Pregunta</button>
+	<div>
+	<div class="col-sm-6 col-sm-offset-3 text-center">
+		<div ng-show="formVisibility" class="wrapper">
+			<div class="well">
+	    		<h3>Añadir Pregunta</h3>
+	    		Pregunta: <input class="form-control input-sm" type="text" ng-model="nuevaPregunta.pregunta">
+	    		Respuesta: <input class="form-control input-sm" type="text" ng-model="nuevaPregunta.respuesta">
+	    		Tema: <input class="form-control input-sm" type="text" ng-model="nuevaPregunta.tema">
+	    		<br />
+	    		<button ng-click="addPregunta()">Guardar</button>
+    		</div>
+		</div>
+	</div>
+</div>
+	</div>
+    </div>
+</div>

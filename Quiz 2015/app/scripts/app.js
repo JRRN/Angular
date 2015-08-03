@@ -31,6 +31,16 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'main'
       })
+      .when('/temas', {
+        templateUrl: 'views/temas.html',
+        controller: 'PreguntasCtrl',
+        controllerAs: 'main'
+      })
+      .when('/preguntas', {
+        templateUrl: 'views/preguntas.html',
+        controller: 'PreguntasCtrl',
+        controllerAs: 'main'
+      })
       .otherwise({
         redirectTo: '/'
       });
