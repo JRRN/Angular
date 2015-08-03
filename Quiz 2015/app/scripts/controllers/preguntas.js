@@ -42,5 +42,9 @@ angular.module('proApp')
 			$scope.formVisibility = false;
 			console.log($scope.formVisibility);
 		};
+
+		$scope.delPregunta = function(index){
+			$scope.preguntas.splice(index, 1);
+		};
 	}
 );

@@ -1,9 +1,13 @@
 <div class="container">
     <div class="row">       
-  	<div ng-repeat="preg in preguntas">
-  		<ul>
-  		<li>{{ preg.pregunta }}</li>
-  		</ul>	
+  	<div>
+		<p class="input-group" ng-repeat="preg in preguntas">
+		<input type="text" readonly ng-model="preg.pregunta" class="form-control">
+		<span class="input-group-btn">
+			<button class="btn btn-danger" ng-click="delPregunta($index)" arial-label="Eliminar"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+			</button>
+		</span>
+		</p>
   	</div>
 	<div class="col-sm-12 col-sm-offset-0 text-center">
 	<br />
