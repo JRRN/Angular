@@ -1,8 +1,12 @@
-.DS_Store
-.tmp
-/bower_components
 /node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+.DS_Store
+/.bin
 /test
+/grunt
 .bowerrc
 .editorconfig
 .gitattributes
@@ -10,6 +14,4 @@
 .jshintrc
 .travis.yml
 .yo-rc.json
-bower.json
 Gruntfile.js
-package.json

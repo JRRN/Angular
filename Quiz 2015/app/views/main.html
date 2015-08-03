@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h1>'Allo, 'Allo!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+<ul class="row">
+<li ng-repeat="things in awesomeThings">
+{{things.title}}
+</li>
+</ul>
+
+<div class="row marketing" ng-repeat="things in awesomeThings">
+  <h4>{{ things.title}}</h4>
+  <p>{{  things.text}}</p>
+</div>

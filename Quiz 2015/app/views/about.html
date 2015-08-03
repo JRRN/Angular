@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">           
+  	<div ng-repeat="ab in about">
+  		<p align="center">Foto de perfil: <br><img src="{{ ab.image }}"></p>
+		<p align="center">Nombre: {{ ab.name }}</p>
+		<br>
+		<div id="video">
+		<video controls="" width="100%">
+		  <source src='{{ ab.videomp4 }}' type="video/mp4">
+		  <source src="{{ ab.videoogg }}" type="video/ogg">
+		  Your browser does not support HTML5 video.
+		</video>
+		</div>
+		<br>
+	</div>
+    </div>
+</div>
