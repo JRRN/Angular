@@ -17,8 +17,13 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'LocalStorageModule'
   ])
+  .config(['localStorageServiceProvider',function(localStorageServiceProvider){
+    localStorageServiceProvider.setPrefix('ls');
+  }])
+
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -39,6 +44,16 @@ angular
       .when('/preguntas', {
         templateUrl: 'views/preguntas.html',
         controller: 'PreguntasCtrl',
+        controllerAs: 'main'
+      })
+      .when('/DB', {
+        templateUrl: 'views/db.html',
+        controller: 'DbCtrl',
+        controllerAs: 'main'
+      })
+      .when('/preguntas/tema', {
+        templateUrl: 'views/list_preguntas.html',
+        controller: 'lPregCtrl',
         controllerAs: 'main'
       })
       .otherwise({

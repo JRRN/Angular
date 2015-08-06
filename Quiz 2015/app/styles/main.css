@@ -5,6 +5,22 @@
   padding: 0.2em 0;
 }
 
+.thumbails img{
+  width: 15%;
+}
+
+.gridStyles{
+  width: 940px;
+  height: 300px;
+}
+.ngRow.even{
+  background: gray;
+}
+
+.ngRow.even{
+  background: blue;  
+}
+
 body {
   padding: 0;
 }

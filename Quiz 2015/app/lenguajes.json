@@ -1,0 +1,15 @@
+[
+{title: "HTML5",url:"<a href='http://www.w3.org/TR/html5/'>Link</a>'>Link</a>",srcimg: "<img ng-src='images/html5.png'/>"},
+{title: "CSS3",url:"<a href='http://www.w3.org/Style/CSS/'>Link</a>",srcimg: "<img ng-src='images/css3.png'/>"},
+{title: "Javascript",url:"<a href='https://www.javascript.com'>Link</a>",srcimg: "<img ng-src='images/js.png'/>"},
+{title: "AngularJS",url:"<a href='https://angularjs.org'>Link</a>",srcimg: "<img ng-src='images/angular.png'/>"},
+{title: "jQuery",url:"<a href='http://jquery.com'>Link</a>",srcimg: "<img ng-src='images/jquery.png'/>"},
+{title: "Bootstrap",url:"<a href='<a href='http://getbootstrap.com'>b</a>'>Link</a>",srcimg: "<img ng-src='images/bootstrap.png'/>"},
+{title: "Bower",url:"<a href='http://bower.io'>Link</a>",srcimg: "<img ng-src='images/bower.png'/>"},
+{title: "Json",url:"<a href='http://json.org'>Link</a>",srcimg: "<img ng-src='images/json.png'/>"},
+{title: "Grunt",url:"<a href='http://gruntjs.com'>Link</a>",srcimg: "<img ng-src='images/grunt.png'/>"},
+{title: "Karma",url:"<a href='https://karma-runner.github.io/0.13/index.html'>Link</a>",srcimg: "<img ng-src='images/karma.png'/>"},
+{title: "Yeoman",url:"<a href='http://yeoman.io'>Link</a>",srcimg: "<img ng-src='images/yo.png'/>"},
+{title: "Git",url:"<a href='http://git-scm.com'>Link</a>",srcimg: "<img ng-src='images/git.png'/>"},
+{title: "Github",url:"<a href='https://github.com'>Link</a>",srcimg: "<img ng-src='images/github.png"}
+];
