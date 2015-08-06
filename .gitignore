@@ -1,11 +1,11 @@
-/node_modules
+node_modules
 /dist
-/.tmp
+.tmp
 /.sass-cache
-/bower_components
+bower_components
 .DS_Store
 /.bin
-/test
+test
 /grunt
 .bowerrc
 .editorconfig
@@ -15,3 +15,4 @@
 .travis.yml
 .yo-rc.json
 Gruntfile.js
+dist

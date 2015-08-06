@@ -46,7 +46,7 @@ angular
         controller: 'PreguntasCtrl',
         controllerAs: 'main'
       })
-      .when('/DB', {
+      .when('/db', {
         templateUrl: 'views/db.html',
         controller: 'DbCtrl',
         controllerAs: 'main'
